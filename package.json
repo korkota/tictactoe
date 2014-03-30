@@ -1,0 +1,14 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-remove-logging": "latest",
+    "grunt-closure-compiler": "latest",
+    "closure-linter-wrapper": "~0.2.9",
+    "grunt-gjslint": "~0.1.4"
+  }
+}

@@ -1,0 +1,14 @@
+.board {
+    display: none;
+    background-color: #FFFFFF;
+    border: 1px dashed #86afff;
+    border-collapse: collapse;
+}
+
+.board td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px dashed #86afff;
+    width: 50px;
+    height: 50px;
+}
