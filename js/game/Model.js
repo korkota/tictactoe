@@ -32,6 +32,11 @@ game.Model.prototype.doTurn = function(player, row, col) {
     return;
   }
 
+  if (this.getFreeCells().length === 0) {
+    this._endGame();
+    return;
+  }
+
   var newIndex = (this._players.indexOf(this._currentPlayer) + 1) % this._players.length;
   this._currentPlayer = this._players[newIndex];
   this.publish(this._currentPlayer.name, {row: row, col: col});
